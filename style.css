@@ -1,0 +1,75 @@
+*{
+	background color: tomato;
+}
+
+main{
+	background-color: aquamarine;
+}
+
+article{
+	background-color: tomato;
+}
+ /*ID selektorius*/
+#super{
+	background-color: silver;
+
+}
+
+/*Klases selektorious*/
+.super{
+	background-color: red;
+}
+
+.duper{
+	font-size:3em;
+}
+
+.strong{
+	font-weight: bold;
+}
+
+/*Atributo selektorius*/
+
+a[href="www.kitm.lt"]{
+	background-color: blue;
+}
+
+a[href="www.delfi.lt"]{
+	background-color: red;
+}
+a[href="www.15min.lt"]{
+	background-color: yellow;
+}
+a[href="www.lrytas.lt"]{
+	background-color: black
+}
+a[href$=".jpg"]{
+	background-color: yellow
+}
+a[href$=".pdf"]{
+	background-color: blue
+}
+a[href$=".docx"]{
+	background-color: black
+}
+a[href$=".xlsx"]{
+	background-color: green
+}
+
+/*pseudo klases*/
+
+a:link{
+	color:red;
+}
+
+a.visited{
+	color: aqua;
+}
+
+a:hover{
+	color:green;
+}
+
+table tr td th:nth-child(2n+1){
+	color: green;
+}
